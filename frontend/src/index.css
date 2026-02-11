@@ -1,0 +1,69 @@
+@import "tailwindcss";
+
+@theme {
+  --color-life-bg-base: var(--color-bg-base);
+  --color-life-bg-alt: var(--color-bg-alt);
+  --color-life-text-base: var(--color-text-base);
+  --color-life-text-muted: var(--color-text-muted);
+  --color-life-accent: var(--color-accent);
+  --color-life-border: var(--color-border);
+}
+
+:root {
+  /* Light Mode (Original) */
+  --color-bg-base: #FFFFFF;
+  /* White */
+  --color-bg-alt: #F9FAFB;
+  /* Gray-50 (Sidebar/Alt) */
+  --color-text-base: #000000;
+  /* Black */
+  --color-text-muted: #9CA3AF;
+  /* Gray-400 */
+  --color-accent: #FF3B30;
+  /* Red */
+  --color-border: #E5E7EB;
+  /* Gray-200 */
+}
+
+/* Dark Mode (Strict Swap) */
+.dark {
+  --color-bg-base: #000000;
+  /* Black (swapped from White) */
+  --color-bg-alt: #000000;
+  /* Black (swapped from Gray-50 - keeps it strict black) */
+  --color-text-base: #FFFFFF;
+  /* White (swapped from Black) */
+  --color-text-muted: #6B7280;
+  /* Gray-500 (lighter for dark mode) */
+  --color-accent: #FF9500;
+  /* Orange (swapped from Red) */
+  --color-border: #333333;
+  /* Dark Gray (visible border) */
+}
+
+body {
+  @apply bg-life-bg-alt text-life-text-base font-sans antialiased transition-colors duration-200;
+}
+
+@layer utilities {
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .scrollbar-thin::-webkit-scrollbar {
+    width: 4px;
+  }
+
+  .scrollbar-thin::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  .scrollbar-thin::-webkit-scrollbar-thumb {
+    @apply bg-life-border rounded;
+  }
+}

@@ -1,0 +1,164 @@
+# ================================
+# SENSITIVE INFORMATION - NEVER COMMIT
+# ================================
+
+# Environment variables (API keys, secrets, etc.)
+.env
+.env.*
+!.env.example
+
+# API keys and credentials
+*.key
+*.pem
+secrets/
+credentials/
+
+# ================================
+# PYTHON
+# ================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+.eggs/
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# ================================
+# DJANGO
+# ================================
+
+# Database
+db.sqlite3
+db.sqlite3-journal
+*.db
+
+# Media and static files (generated)
+media/
+staticfiles/
+static/
+!backend/static/.gitkeep
+
+# Django migrations (optional - comment out if you want to track migrations)
+# */migrations/*.py
+# !*/migrations/__init__.py
+
+# ================================
+# NODE / REACT / VITE
+# ================================
+
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build outputs
+dist/
+dist-ssr/
+*.local
+
+# Vite
+.vite/
+vite.config.js.timestamp-*
+
+# ================================
+# IDEs and EDITORS
+# ================================
+
+# VS Code
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# JetBrains (PyCharm, WebStorm, etc.)
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# ================================
+# OPERATING SYSTEM
+# ================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+.directory
+
+# ================================
+# LOGS AND TEMPORARY FILES
+# ================================
+
+*.log
+logs/
+*.tmp
+*.temp
+
+# ================================
+# PROJECT SPECIFIC
+# ================================
+
+# Test/debug scripts (uncomment if you have these)
+test_*.py
+debug_*.py
+create_carnaval.py
+fix_project_*.py
+inspect_project.py
+
+# Journal data (if you don't want to commit user data)
+journal/
+
+# MCP server test files
+mcp_server/test_*.py
+
