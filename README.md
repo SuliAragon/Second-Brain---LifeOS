@@ -72,7 +72,7 @@
 
 ## 📸 Capturas de Pantalla
 
-> **Nota**: Agrega capturas de pantalla de tu aplicación en la carpeta `docs/screenshots/` y actualiza esta sección.
+![Settings Preview](docs/screenshots/settings_preview.png)
 
 ---
 
