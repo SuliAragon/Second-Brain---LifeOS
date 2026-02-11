@@ -72,7 +72,17 @@
 
 ## 📸 Capturas de Pantalla
 
-![Settings Preview](docs/screenshots/settings_preview.png)
+## 📸 Capturas de Pantalla
+
+<div align="center">
+
+| | | |
+|:---:|:---:|:---:|
+| ![Dashboard 1](docs/screenshots/10FDA0D0-BCF7-4CDC-BA44-E78626A9EF5E.png) | ![Dashboard 2](docs/screenshots/23FEB301-8D19-4C0F-9C29-F22D63F947E1.png) | ![Dashboard 3](docs/screenshots/63FACFF3-9A7A-47FC-8DAF-B0E6D1486952.png) |
+| ![Dashboard 4](docs/screenshots/90B1FC07-ED71-40EF-86D5-91144A7CE4C9.png) | ![Dashboard 5](docs/screenshots/90FE76FE-1519-46F6-8101-0354E5B01C77.png) | ![Dashboard 6](docs/screenshots/92B6B368-2460-44B8-B1B5-E25D6DFD1A8A.png) |
+| ![Dashboard 7](docs/screenshots/93445050-2B76-4D13-8DE8-64F7F4EDF59A.png) | ![Dashboard 8](docs/screenshots/98CEA9BD-F60C-4834-9099-F7DB1BED76BE.png) | ![Dashboard 9](docs/screenshots/BE9D4FC5-D6A4-4D35-B714-AECC585F5C47.png) |
+
+</div>
 
 ---
 
